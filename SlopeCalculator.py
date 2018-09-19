@@ -17,7 +17,9 @@ y2 = int(y2)
 rise = x2 - x1
 run = y2 - x1
 
+fslope = rise/run
 
 #Output
-print(rise)
-print(run)
+print("Your slope is m = "+str(rise)+"/"+str(run))
+print("Your slope as a decimal is "+str(fslope))
+
