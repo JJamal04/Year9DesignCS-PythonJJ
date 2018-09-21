@@ -1,4 +1,8 @@
+import os
+
 print("Slope Calculator")
+
+os.system("say Hello")
 
 #Input
 x1 = input("Input x1: ")
