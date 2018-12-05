@@ -6,7 +6,7 @@ root = tk.Tk()
 titleLabel = tk.Label(root, text = "PASSWORD GENERATOR", font =("Helvetica",16))
 titleLabel.pack()
 
-titleLabel.grid(row = 0, column = 0, columnspan = 1)
+titleLabel.grid(row = 0, column = 0, columnspan = 2)
 
 output = tk.Text(root, height = 10, width = 50)
 output.config(state = "disable")

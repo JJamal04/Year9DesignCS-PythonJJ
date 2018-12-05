@@ -103,7 +103,7 @@ nbtnGoals.grid( row = 6, column = 1, sticky = "E")
 
 #Save Button
 sbtn = tk.Button(root, text = "Save")
-sbtn.grid(row = 7, column = 0, columnspan = 4)
+sbtn.grid(row = , column = 0, columnspan = 4)
 
 # link function to change dropdown
 tkvar.trace('w', change_dropdown)
