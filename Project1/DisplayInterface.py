@@ -1,4 +1,4 @@
-from Tkinter import 
+from Tkinter import *
 
 root = Tk()
 
@@ -8,4 +8,5 @@ for i in range(height): #Rows
     for j in range(width): #Columns
         b = Entry(root, text="")
         b.grid(row=i, column=j)
+
 mainloop()
